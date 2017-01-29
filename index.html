@@ -6,7 +6,7 @@
   </head>
   <body>
 	<header class = "main-header">
-		<img src="http://placehold.it/150x50" alt=""><br>
+		<h1 class="logo">DEVICE</h1>
 		<input type="button" name="site-search" class="site-search" value="Поиск">
 		<input type="search" placeholder="Поиск по сайту">
 		<a href="#">Войти</a>
@@ -20,22 +20,54 @@
 
 	<main>
 		<img src="http://placehold.it/300x300" alt="">
-		<div class="description-product">
-			<h2>Делай селфи, как Бен Стиллер</h2>
-			<p>Самая длинная палка для селфи доступна в нашем магазине.</p>
-			<p>Восемь(Восемь, Карл!) метров длинной и веслом всего 5 килограмм.</p>
-			<a href="#">Подробнее</a> <!-- Тут по идее будет слайдер -->
-			<div class="main-slide">
-				<div class="first-slide">
-					<img src="http://placehold.it/300x100" alt="">
+		<div class="main-slide">
+			<div class="first-slide">
+				<h2 class="advert">Делай селфи, как Бен Стиллер</h2>
+				<p>Самая длинная палка для селфи доступна в нашем магазине.</p>
+				<p>Восемь(Восемь, Карл!) метров длинной и веслом всего 5 килограмм.</p>
+				<a href="#">Подробнее</a> 
+				<img src="http://placehold.it/300x100" alt="">
+				<div class="length">
+					<h2>8,5 м</h2>
+					<span>длина палки</span>
 				</div>
-				<div class="second-slide"> 
-					<img src="http://placehold.it/300x100" alt="">
+				<div class="weight">
+					<h2>5 кг</h2>
+					<span>вес палки</span>
 				</div>
-				<div class="third-slide"> 
-					<img src="http://placehold.it/300x100" alt="">
+				<div class="material">
+					<h2>Карбон</h2>
+					<span>материал</span>
 				</div>
 			</div>
+			<div class="second-slide">
+				<h2 class="advert">Худеем правильно!</h2>
+				<p>Мотивирующие фитнесс-браслеты помогут найти в себе силы</p>
+				<p>не пропускать занятия и соблюдать диету.</p>
+				<a href="#">Подробнее</a> 
+				<img src="http://placehold.it/300x100" alt="">
+				<div class="battery">
+					<h2>48 часов</h2>
+					<span>Без подзарядки</span>
+				</div>
+			</div>
+			<div class="third-slide">
+				<h2 class="advert">Порхает как бабочка, жалит как пчела!</h2>
+				<p>Этот необычный на первый взгляд квадрокоптер оснащён</p>
+				<p>мощным лазером, замаскированным под стандартную камеру.</p>
+				<a href="#">Подробнее</a> 
+				<img src="http://placehold.it/300x100" alt="">
+				<div class="length">
+					<h2>800 м</h2>
+					<span>Дальность полета</span>
+				</div>
+				<div class="weight">
+					<h2>50 м</h2>
+					<span>Радиус поражения</span>
+				</div>
+			</div>
+			
+			
 		</div>
 
 		<div class="product">
@@ -45,12 +77,12 @@
 			<a href="#"><img src="http://placehold.it/100x100" alt=""></a>
 			<a href="#"><img src="http://placehold.it/100x100" alt=""></a>
 			<a href="#"><img src="http://placehold.it/100x100" alt=""></a><br>
-			<span>Виртуальная реальность</span>
-			<span>Моноподы для селфи</span>
-			<span>Экшн-камеры</span>
-			<span>Фитнесс браслеты</span>
-			<span>Умные часы</span>
-			<span>Квадрокоптеры</span>
+			<span class="description">Виртуальная реальность</span>
+			<span class="description">Моноподы для селфи</span>
+			<span class="description">Экшн-камеры</span>
+			<span class="description">Фитнесс браслеты</span>
+			<span class="description">Умные часы</span>
+			<span class="description">Квадрокоптеры</span>
 		</div>
 
 		<div class="reference-information"> <!-- Здесь будут табы -->
@@ -64,19 +96,19 @@
 		    <label for="tab3" title="Вкладка 3">Вкладка 3</label><br>
 		 
 		    <section id="content1">
-		    	<h2>Доставка</h2>
+		    	<h2 class="advert">Доставка</h2>
 		        <p>
 					Мы с удовольствием доставим ваш товар прямо к вашему подъезду совершенно бесплатно! Ведь мы неплохо заработаем, поднимая его на ваш этаж.
 		        </p>
 		    </section>  
 		    <section id="content2">
-		    	<h2>Гарантия</h2>	
+		    	<h2 class="advert">Гарантия</h2>	
 		        <p>
 		          Здесь размещаете содержание....
 		        </p>
 		    </section> 
 		    <section id="content3">
-		    	<h2>Кредит</h2>
+		    	<h2 class="advert">Кредит</h2>
 		        <p>
 		          Здесь размещаете содержание....
 				</p>
@@ -91,7 +123,7 @@
 		</div>
 
 		<div class="company">
-			<h2>О нас</h2>
+			<h2 class="advert">О нас</h2>
 			<p>Огромный выбор гаджетов не оставит равнодушным гика, который есть в каждом из нас.</p>
 			<p>Мы можем доставить ваш товар в самые отдалённые точки России! DEVICE работает со многими транспортными компаниями.</p>
 			<ul>
@@ -103,7 +135,7 @@
 		</div>
 
 		<div class="contacts">
-			<h2>Контакты</h2>
+			<h2 class="advert">Контакты</h2>
 			<p>Вы можете забрать товар сами, заехав в наш офис. Заодно, вы сможете проверить работоспособность покупки. Всякое бывает.</p>
 			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2249.1125488779976!2d37.52742931592807!3d55.687030980535816!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54cf65f5c8955%3A0x694710ccd55501e!2z0YPQuy4g0KHRgtGA0L7QuNGC0LXQu9C10LksIDE1LCDQnNC-0YHQutCy0LAsIDExOTMxMQ!5e0!3m2!1sru!2sru!4v1485163980255" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe><br>
 			<a href="#"><img src="http://placehold.it/160x25" alt=""></a>
@@ -112,7 +144,7 @@
 
 	<footer>
 		<div>
-			<h2>DEVICE</h2>	
+			<h2 class="advert">DEVICE</h2>	
 			<a href="#">Войти</a>
 			<a href="#">Сравнить</a>
 			<a href="#">Корзина</a>
