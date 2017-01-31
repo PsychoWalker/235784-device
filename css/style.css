@@ -1,6 +1,7 @@
 body {
 	color: #000000;
 	font-family: Gilroy, sans-serif;
+
 }
 
 h1 {	
@@ -11,9 +12,7 @@ h1 {
 	font-family: Gilroy, sans-serif;
 }
 
-.advert-device {
-	color: #ffe27f;
-}
+
 
 h2 {
 	font-size: 47pt;
@@ -21,4 +20,8 @@ h2 {
 	color: #000000;
 	font-weight: bold;
 	font-family: Gilroy, sans-serif;
+}
+
+.advert-device {
+	color: #ffe27f;
 }
