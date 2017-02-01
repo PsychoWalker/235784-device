@@ -1,11 +1,14 @@
 body {
+	font-size: 15px;
+	line-height: auto;
+	font-weight: normal;
 	color: #000000;
 	font-family: Gilroy, sans-serif;
 
 }
 
 h1 {	
-	font-size: 48pt;
+	font-size: 48px;
 	line-height: auto;
 	color: #000000;
 	font-weight: bold;
@@ -15,13 +18,9 @@ h1 {
 
 
 h2 {
-	font-size: 47pt;
+	font-size: 47px;
 	line-height: auto;
 	color: #000000;
 	font-weight: bold;
 	font-family: Gilroy, sans-serif;
-}
-
-.advert-device {
-	color: #ffe27f;
 }
