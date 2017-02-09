@@ -387,3 +387,17 @@ h2 {
 .footer .social-links-wrapper .academy-link {
   text-align: right;
 }
+
+.filters {
+	float: left;
+	width: 200px;
+}
+
+.catalog {
+	float: right;
+	width: 760px;
+}
+
+.main-frame {
+	padding-left: 60px;
+}
