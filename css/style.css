@@ -124,16 +124,9 @@ h2 {
 	width: 220px;
 }
 
-/* ----- MAIN CONTENT ------ */
 
-
-.main-frame {
-}
 
 /* ----- SLIDER ------ */
-.main-slider {
-
-}
 
 .slide:not(:first-child) {
 	display: none;
