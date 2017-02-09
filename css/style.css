@@ -401,7 +401,9 @@ h2 {
 .main-frame {
 	padding-left: 60px;
 }
-
+.products {
+	margin-bottom: 65px;
+}
 .product {
 	display: inline-block;
 	width: 300px;
@@ -422,8 +424,12 @@ h2 {
 }
 
 .filter-name {
+
 	padding: 25px 0;
 	background-color: #dddddd;
+	left: -100%;
+	width: 300%;
+	z-index: -1;
 }
 
 .sorting-name,
@@ -432,4 +438,32 @@ h2 {
 .sorting-popularity {
 	flex: 1;
 	padding: 25px 0;
+}
+
+.navigation-product {
+	display: flex;
+
+	height: 70px;
+	width: 760px;
+	background-color: #ebebeb;
+}
+
+.navigation-product-back {
+	flex: 1;
+	padding: 25px 20px;
+}
+
+
+.navigation-product-3 {
+	flex: 1;
+}
+
+.navigation-product-forward {
+	padding: 25px 20px;
+}
+
+.navigation-product-1,
+.navigation-product-2,
+.navigation-product-3 {
+	padding: 25px 20px;
 }
