@@ -390,14 +390,46 @@ h2 {
 
 .filters {
 	float: left;
-	width: 200px;
+	width: 265px;
 }
 
 .catalog {
 	float: right;
-	width: 760px;
+	width: 835px;
 }
 
 .main-frame {
 	padding-left: 60px;
+}
+
+.product {
+	display: inline-block;
+	width: 300px;
+	margin: 70px 40px 0px 0px;
+	padding-left: 72px;
+}
+
+.product-description {
+	margin-top: 40px;
+}
+
+.sorting {
+	padding-left: 72px;
+	height: 70px;
+	display: flex;
+	background-color: #ebebeb;
+
+}
+
+.filter-name {
+	padding: 25px 0;
+	background-color: #dddddd;
+}
+
+.sorting-name,
+.sorting-price,
+.sorting-type,
+.sorting-popularity {
+	flex: 1;
+	padding: 25px 0;
 }
