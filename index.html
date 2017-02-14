@@ -3,6 +3,7 @@
 <head>
     <meta charset="utf-8">
     <title>HTML Academy: Девайс</title>
+    <link rel="stylesheet" href="css/normalize.css">
     <link href="css/style.css" rel="stylesheet">
 </head>
 <body>
@@ -13,55 +14,23 @@
 
         <header class="main-header">
             <a href="#" class="logo">DEVICE</a>
-     <!---       <nav class="cabinet-menu">
-                <div class="cabinet-menu-item">
-                    <input type="button" name="site-search" class="site-search" value="Поиск">
-                    <input type="search" placeholder="Поиск по сайту">
-                </div>
-                <div class="cabinet-menu-item">
-                    <a href="#">Войти</a>
-                </div>
-                <div class="cabinet-menu-item">
-                    <a href="#">Сравнить</a>
-                </div>
-                <div class="cabinet-menu-item">
-                    <a href="#">Корзина</a><br>
-                </div>
-            </nav>
-    -->
-            <div class="cabinet-menu-1">
-                <ul class="cabinet-menu-list-1">
-                    <li class="cabinet-menu-item-1"><input type="button" name="site-search" class="site-search" value="Поиск"><input type="search" placeholder="Поиск по сайту"></li>
-                    <li class="cabinet-menu-item-1"><a href="#">Войти</a></li>
-                    <li class="cabinet-menu-item-1"><a href="#">Сравнить</a></li>
-                    <li class="cabinet-menu-item-1"><a href="#">Корзина</a><br></li>
+            <div class="cabinet-menu-header">
+                <ul class="cabinet-menu-list-header">
+                    <li class="cabinet-menu-item-header"><input type="search" placeholder="Поиск по сайту" class="site-search-form"><input type="button" name="site-search" class="site-search" value="Поиск"></li>
+                    <li class="cabinet-menu-item-header"><a class="cabinet-menu-link" href="#">Войти</a></li>
+                    <li class="cabinet-menu-item-header"><a class="cabinet-menu-link" href="#">Сравнить</a></li>
+                    <li class="cabinet-menu-item-header"><a class="cabinet-menu-link" href="#">Корзина</a><br></li>
                 </ul>
             </div>
 
-            <div class="main-menu-1">
-                 <ul class="catalogue-menu-list-1">
-                    <li class="catalogue-menu-item-1"><a href="#">Каталог товаров</a></li>
-                    <li class="catalogue-menu-item-1"><a href="#">Доставка</a></li>
-                    <li class="catalogue-menu-item-1"><a href="#">Гарантия</a></li>
-                    <li class="catalogue-menu-item-1"><a href="#">Контакты</a><br></li>
+            <div class="main-menu-header">
+                 <ul class="catalogue-menu-list-header">
+                    <li class="catalogue-menu-item-header"><a class="cabinet-menu-link" href="#">Каталог товаров</a></li>
+                    <li class="catalogue-menu-item-header"><a class="cabinet-menu-link" href="#">Доставка</a></li>
+                    <li class="catalogue-menu-item-header"><a class="cabinet-menu-link" href="#">Гарантия</a></li>
+                    <li class="catalogue-menu-item-header"><a class="cabinet-menu-link" href="#">Контакты</a><br></li>
                 </ul>
             </div>
-
-           <!-- <nav class="main-menu">
-                <div class="catalogue-menu-item">
-                    <a href="#">Каталог товаров</a>
-                </div>
-                <div class="delivery menu-item">
-                    <a href="#">Доставка</a>
-                </div>
-                <div class="guarantee menu-item">
-                    <a href="#">Гарантия</a>
-                </div>
-                <div class="contacts menu-item">
-                    <a href="#">Контакты</a>
-                </div>
-            </nav>
-            -->
         </header>
 
         <main class="main-frame">
@@ -73,7 +42,7 @@
 
                     <div class="description-item">
                         <div class="dash"></div>
-                        <div class="number">01</div>
+                        <div class="slider-number">01</div>
                         <div class="title">
                             <h2 class="slide-headline">Делай селфи, как Бен Стиллер</h2>
                         </div>
@@ -242,11 +211,11 @@
                         нас.</p>
                     <p class="company-description">Мы можем доставить ваш товар в самые отдалённые точки России! DEVICE
                         работает
-                        со многими транспортными компаниями.</p>
+                        со многими транспортными компаниями:</p>
                     <ul class="company-list">
-                        <li>Деловые линии</li>
-                        <li>Автотрейдинг</li>
-                        <li>ЖелДорЭкспедиция</li>
+                        <li class="company-list-name">Деловые линии</li>
+                        <li class="company-list-name">Автотрейдинг</li>
+                        <li class="company-list-name">ЖелДорЭкспедиция</li>
                     </ul>
                     <a href="#" class="btn">Подробнее о нас</a>
                 </div>
@@ -256,8 +225,9 @@
                     <p class="company-description">Вы можете забрать товар сами, заехав в наш офис. Заодно, вы сможете
                         проверить
                         работоспособность покупки. Всякое бывает.</p>
-                    <img src="">
-                    <!--<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2249.1125488779976!2d37.52742931592807!3d55.687030980535816!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54cf65f5c8955%3A0x694710ccd55501e!2z0YPQuy4g0KHRgtGA0L7QuNGC0LXQu9C10LksIDE1LCDQnNC-0YHQutCy0LAsIDExOTMxMQ!5e0!3m2!1sru!2sru!4v1485163980255" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe><br>-->
+                    <div class="company-map">
+                        <img src="img/map.jpg" alt="Карта">
+                    </div>
                     <a href="#" class="btn">Напишите нам</a>
                 </div>
             </div>
@@ -267,49 +237,15 @@
     <footer class="footer">
         <div class="wrapper">
             <div class="cabinet-menu-wrapper">
-                <a href="#" class="logo logo-1">DEVICE</a>
-
-                <div class="cabinet-menu">
-                    <div class="footer-menu-item">
-                        <a href="#"><img src="img/user.png" alt=""> Войти</a>
-                    </div>
-                    <div class="footer-menu-item">
-                        <a href="#"><img src="img/compare.png" alt=""> Сравнить</a>
-                    </div>
-                    <div class="footer-menu-item">
-                        <a href="#"><img src="img/cart.png" alt=""> Корзина</a><br>
-                    </div>
+                <div class="cabinet-menu-footer">
+                    <a href="#" class="logo logo-1">DEVICE</a>
+                    <ul class="cabinet-menu-list-footer">
+                        <li class="cabinet-menu-item-footer"><a class="cabinet-menu-link" href="#">Войти</a></li>
+                        <li class="cabinet-menu-item-footer"><a class="cabinet-menu-link" href="#">Сравнить</a></li>
+                        <li class="cabinet-menu-item-footer"><a class="cabinet-menu-link" href="#">Корзина</a><br></li>
+                    </ul>
                 </div>
             </div>
-            <div class="contacts-wrapper">
-        <!---        <div class="footer-adress">г. Москва, ул. Строителей, 15</div>
-                <nav class="footer-menu">
-                    <a href="#" class="footer-menu-link">Доставка</a>
-                    <a href="#" class="footer-menu-link">Гарантия</a>
-                    <a href="#" class="footer-menu-link">Контакты</a>
-                </nav>
-                <div class="footer-phone">Тел.: +7 (495) 495-95-95</div>
-            </div>
-
-            <div class="social-links-wrapper">
-                <div class="dash-wrapper">
-                    <div class="dash"></div>
-                </div>
-
-
-                <div class="social-links">
-                    <a href="#"><img src="img/facebook.png" alt="Фейсбук"></a>
-                    <a href="#"><img src="img/insta.png" alt="Инстаграм"></a>
-                    <a href="#"><img src="img/twitter.png" alt="Твиттер"></a>
-                </div>
-
-                <div class="academy-link">
-                    <a href="https://htmlacademy.ru/">
-                        <img src="img/htmlacademy.png" alt="html-академия">
-                    </a>
-                </div>
-            </div>
-            -->
         </div>
     </footer>
 </div>
