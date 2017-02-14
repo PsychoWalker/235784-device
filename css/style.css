@@ -354,7 +354,7 @@ h2 {
 .services {
 	position: relative;
 	margin-top: 80px;
-	margin-bottom: 200px;
+	margin-bottom: 100px;
 	background: #e5e5e5;
 }
 
@@ -415,6 +415,16 @@ h2 {
 /* -- COMPANY INFO & CONTACT -- */
 .company-info-wrapper {
 	
+}
+
+.brands {
+	font-size: 0;
+	text-align: center;
+}
+
+.brand-link {
+	display: inline-block;
+	vertical-align: top;
 }
 
 
