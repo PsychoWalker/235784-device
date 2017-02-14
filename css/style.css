@@ -44,14 +44,14 @@ h2 {
    }
 
 /** UTILS **/
-.clearfix {
-	clear: both;
-	float: none;
-	height: 0;
+.clearfix:after {
+	 content: '';
+	 display: table;
+	 clear: both;
 }
 
 .outer-wrapper {
-	overflow: hidden;
+	
 }
 
 .wrapper {
@@ -83,6 +83,9 @@ h2 {
 
 .main-header {
 	padding: 0 60px 35px;
+	background-color: #f7e296;
+	width: 1160px;
+	margin: 40px auto 0;
 }
 
 .main-slider {
@@ -99,6 +102,7 @@ h2 {
 	color: #000000;
 	font-weight: bold;
 	font-family: Gilroy, sans-serif;
+	margin-top: -40px;
 }
 
 .site-search-form {
@@ -207,7 +211,7 @@ h2 {
 
 
 .slide {
-	overflow: hidden;
+	
 }
 
 .image-item {
@@ -219,7 +223,7 @@ h2 {
 }
 
 .description-item {
-	margin-left: 504px;
+	margin-left: 20px;
 }
 
 .description-text {
@@ -251,7 +255,7 @@ h2 {
 }
 
 .controls {
-	overflow: hidden;
+	
 	margin: 50px 0;
 }
 
@@ -284,7 +288,7 @@ h2 {
 }
 
 .product-attributes {
-	overflow: hidden;
+	
 }
 
 .product-attribute {
@@ -313,7 +317,7 @@ h2 {
 /** -- CATEGORIES -- */
 .product-categories {
 	margin-top: 100px;
-	overflow: hidden;
+	
 }
 
 .product-category {
@@ -322,7 +326,7 @@ h2 {
 	width: 160px;
 }
 
-.product-category:last-child {
+.product-category:nth-child(6n) {
 	margin-right: 0px;
 }
 
@@ -330,7 +334,7 @@ h2 {
 	width: 160px;
 	height: 160px;
 	background-color: #ffe27f;
-	overflow: hidden;
+	
 	text-align: center;
 	padding-top: 38px;
 }
@@ -351,6 +355,7 @@ h2 {
 	position: relative;
 	margin-top: 80px;
 	margin-bottom: 200px;
+	background: #e5e5e5;
 }
 
 .gray-background {
@@ -392,8 +397,10 @@ h2 {
 }
 
 .services-content {
-	margin-left: 415px;
+	float: right;
+	margin-left: 100px;
 	padding-top: 80px;
+	width: 760px
 }
 
 .services h2 {
@@ -407,7 +414,7 @@ h2 {
 
 /* -- COMPANY INFO & CONTACT -- */
 .company-info-wrapper {
-	overflow: hidden;
+	
 }
 
 
