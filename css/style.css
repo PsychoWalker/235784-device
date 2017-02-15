@@ -154,7 +154,7 @@ h2 {
 }
 
 .cabinet-menu-item-header:nth-child(2) {
-	margin-left: 268px;
+	margin-left: 263px;
 }
 
 .cabinet-menu-item-header:nth-child(3) {
@@ -399,6 +399,13 @@ h2 {
 .brand-link {
 	display: inline-block;
 	vertical-align: top;
+	filter: grayscale(1);
+	opacity: 0.5;
+}
+
+.brand-link:hover {
+	filter: grayscale(0);
+	opacity: 1;
 }
 
 
@@ -487,7 +494,6 @@ h2 {
 
 .company-address {
 	float: left;
-	width: 260px;
 	margin-top: 30px;
 	width: 220px;
 }
@@ -518,9 +524,14 @@ h2 {
 	margin-left: 300px;
 }
 
-.designed-by {
+.footer-copyright {
 	float: right;
 	margin-top: 60px;
+}
+
+.designed-by {
+	
+	
 	
 }
 /*-- CATALOG-PAGE --*/
