@@ -358,15 +358,7 @@ h2 {
 	background: #e5e5e5;
 }
 
-.gray-background {
-	background: #e5e5e5;
-	width: 300%;
-	left: -100%;
-	height: 100%;
-	position: absolute;
-	z-index: -1;
-	top: 100px;
-}
+
 
 .services input {
 	position: absolute;
@@ -493,13 +485,59 @@ h2 {
 	padding-top: 55px;
 }
 
+.cabinet-menu-footer {
+	width: 1160px;
 
+}
 
+.logo-1 {
+	float: left;
+}
+
+.menu-list-footer {
+	float: right;
+}
+
+.cabinet-menu-item-footer {
+	display: inline-block;
+	text-decoration: none;
+}
+
+.company-address {
+	float: left;
+	width: 260px;
+}
+
+.company-services {
+	float: left;
+	width: 440px;
+}
+
+.company-phone-number {
+	float: right;
+}
+
+.footer-dash {
+	float: left;
+}
+
+.footer-social {
+	float: left;
+}
+
+.designed-by {
+	float: right;
+}
 /*-- CATALOG-PAGE --*/
+
+.main-content {
+	background-color: #efefef;
+}
 
 .filters {
 	float: left;
 	width: 265px;
+	
 }
 
 .catalog {
