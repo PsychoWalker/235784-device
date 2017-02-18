@@ -530,7 +530,6 @@ h2 {
 }
 
 .name {
-	;
 	font-size: 13px;
 	font-weight: normal;
 	color: #444444;
@@ -598,7 +597,14 @@ h2 {
 	background: #e5e5e5;
 }
 
-
+.service-tab-description {
+	font-size: 15px;
+	font-weight: normal;
+	line-height: 30px;
+	color: #444444;
+	font-family: OpenSans, sans-serif;
+	padding-top: 15px;
+}
 
 .services input {
 	position: absolute;
@@ -643,6 +649,10 @@ h2 {
 
 }
 
+.tab-wrapper {
+	height: 299px;
+}
+
 .tabs-menu:hover {
 	cursor: pointer;
 }
@@ -663,7 +673,6 @@ background-image: none;
 width: 280px;
 text-align: left;
 padding-left: 20px;
-
 }
 
 #tab-1:checked ~ #tab-title-1>span, 
@@ -673,7 +682,7 @@ padding-left: 20px;
 }
 
 .img-delivery {
-	margin-top: -140px;
+	margin-top: -195px;
 	margin-left: 545px;
 }
 
