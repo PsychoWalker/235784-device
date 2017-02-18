@@ -14,28 +14,32 @@
                 <a href="#" class="logo">DEVICE</a>
                 <div class="cabinet-menu-header">
                     <ul class="cabinet-menu-list-header">
-                        <li class="cabinet-menu-item-header"><input type="search" placeholder="Поиск по сайту" class="site-search-form"><button type="submit
-" name="site-search" class="site-search" value="Поиск"><div class="button-search"><span class="opacity-text">Найти</span></div></button></li>
-                        <li class="cabinet-menu-item-header"><a class="cabinet-menu-link" href="#">Войти</a></li>
-                        <li class="cabinet-menu-item-header"><a class="cabinet-menu-link" href="#">Сравнить</a></li>
-                        <li class="cabinet-menu-item-header"><a class="cabinet-menu-link" href="#">Корзина</a><br></li>
+                        <li class="cabinet-menu-item-header"><input type="search" placeholder="Поиск по сайту" class="site-search-form">
+                        <button type="submit" name="site-search" class="site-search" value="Поиск"><div class="button-search"><span class="opacity-text">Найти</span></div></button></li>
+                        <li class="cabinet-menu-item-header"><a class="cabinet-menu-link-header" href="#">Войти</a></li>
+                        <li class="cabinet-menu-item-header"><a class="cabinet-menu-link-header" href="#">Сравнить</a></li>
+                        <li class="cabinet-menu-item-header"><a class="cabinet-menu-link-header" href="#">Корзина</a><br></li>
                     </ul>
                 </div>
 
                 <div class="main-menu-header">
                      <ul class="catalogue-menu-list-header">
-                        <li class="catalogue-menu-item-header"><a class="cabinet-menu-link" href="#">Каталог товаров</a></li>
-                        <li class="catalogue-menu-item-header"><a class="cabinet-menu-link" href="#">Доставка</a></li>
-                        <li class="catalogue-menu-item-header"><a class="cabinet-menu-link" href="#">Гарантия</a></li>
-                        <li class="catalogue-menu-item-header"><a class="cabinet-menu-link" href="#">Контакты</a><br></li>
+                        <li class="catalogue-menu-item-header"><a class="cabinet-menu-link-header" href="#">Каталог товаров</a></li>
+                        <li class="catalogue-menu-item-header"><a class="cabinet-menu-link-header" href="#">Доставка</a></li>
+                        <li class="catalogue-menu-item-header"><a class="cabinet-menu-link-header" href="#">Гарантия</a></li>
+                        <li class="catalogue-menu-item-header"><a class="cabinet-menu-link-header" href="#">Контакты</a><br></li>
                     </ul>
                 </div>
         </header>
 
     <main class="main-frame">
         <div class="wrapper">
+                <input type="radio" class="slider-btn" id="btn-1" name="toggle" checked>
+                <input type="radio" class="slider-btn" id="btn-2" name="toggle">
+                <input type="radio" class="slider-btn" id="btn-3" name="toggle">
             <div class="main-slider">
-                <div class="slide clearfix">
+                
+                <div class="slide clearfix" id="slide1">
                     <div class="image-item">
                         <img src="img/slide-1.png" alt="Плаки для селфи" class="slide-picture">
                     </div>
@@ -44,15 +48,14 @@
                         <div class="dash"></div>
                         <div class="slider-number">01</div>
                         <div class="title">
-                            <h2 class="slide-headline">Делай селфи, как Бен Стиллер</h2>
+                            <h2 class="slide-headline">Делай селфи,<br> как Бен Стиллер</h2>
                         </div>
                         <div class="description-text">
                             <p class="description">Самая длинная палка для селфи доступна в нашем магазине.</p>
-                            <p class="description">Восемь(Восемь, Карл!) метров длинной и веслом всего 5 килограмм.</p>
+                            <p class="description">Восемь (Восемь, Карл!) метров длинной и веслом всего 5 килограмм.</p>
                         </div>
                         <div class="controls clearfix">
-                            <a href="#" class="details-link">Подробнее</a>
-                            <div class="slider-switch">* * *</div>
+                            <span class="details-link"><a href="#" class="opacity-link">Подробнее</a></span>
                         </div>
 
                         <div class="product-attributes clearfix">
@@ -70,36 +73,73 @@
                             </div>
                         </div>
                     </div>
-
-                </div>
-                <div class="slide clearfix">
-                    <h2 class="slide-headline">Худеем правильно!</h2>
-                    <p class="description">Мотивирующие фитнесс-браслеты помогут найти в себе силы</p>
-                    <p class="description">не пропускать занятия и соблюдать диету.</p>
-                    <a href="#">Подробнее</a>
-                    <img src="img/slide-2.png" alt="фитнесс-браслеты-">
-                    <div class="product-atribute">
-                        <div class="product-atribute-value">48 часов</div>
-                        <div class="product-atribute-name">Без подзарядки</div>
-                    </div>
-                </div>
-                <div class="slide clearfix">
-                    <h2 class="slide-headline">Порхает как бабочка, жалит как пчела!</h2>
-                    <p class="description">Этот необычный на первый взгляд квадрокоптер оснащён</p>
-                    <p class="description">мощным лазером, замаскированным под стандартную камеру.</p>
-                    <a href="#">Подробнее</a>
-                    <img src="img/slide-3.png" alt="дрон">
-                    <div class="product-atribute">
-                        <div class="product-atribute-value">800 м</div>
-                        <div class="product-atribute-name">Дальность полета</div>
-                    </div>
-                    <div class="product-atribute">
-                        <div class="product-atribute-value">50 м</div>
-                        <div class="product-atribute-name">Радиус поражения</div>
-                    </div>
                 </div>
 
+                <div class="slide clearfix" id="slide2">
+                    <div class="image-item slide-2">
+                       <img src="img/slide-2.png" alt="фитнесс-браслеты-">
+                    </div>
 
+                    <div class="description-item">
+                        <div class="dash"></div>
+                        <div class="slider-number">02</div>
+                        <div class="title">
+                            <h2 class="slide-headline">Худеем<br> правильно!</h2>
+                        </div>
+                        <div class="description-text">
+                            <p class="description">Мотивирующие фитнесс-браслеты помогут найти в себе силы</p>
+                            <p class="description">не пропускать занятия и соблюдать диету.</p>
+                        </div>
+                        <div class="controls clearfix">
+                            <span class="details-link"><a href="#" class="opacity-link">Подробнее</a></span>
+                        </div>
+                        
+                         <div class="product-attributes clearfix">
+                            <div class="product-attribute">
+                                <div class="value-2">48 часов</div>
+                                <div class="name">Без подзарядки</div>
+                            </div>
+                    </div>
+                </div>
+                </div>
+
+                <div class="slide clearfix" id="slide3">
+                    <div class="image-item slide-3">
+                      <img src="img/slide-3.png" alt="дрон">
+                    </div>
+
+                    <div class="description-item">
+                        <div class="dash"></div>
+                        <div class="slider-number">03</div>
+                        <div class="title">
+                            <h2 class="slide-headline">Порхает как бабочка, жалит как пчела!</h2>
+                        </div>
+                        <div class="description-text">
+                            <p class="description">Этот необычный на первый взгляд квадрокоптер оснащён</p>
+                            <p class="description">мощным лазером, замаскированным под стандартную камеру.</p>
+                        </div>
+                    
+                        <div class="controls clearfix">
+                            <span class="details-link"><a href="#" class="opacity-link">Подробнее</a></span>
+                        </div>
+                        <div class="product-attributes clearfix">
+                            <div class="product-attribute">
+                                <div class="value">800 м</div>
+                                <div class="name">Дальность полета</div>
+                            </div>
+                            <div class="product-atribute">
+                                <div class="value">50 м</div>
+                                <div class="name">Радиус поражения</div>
+                            </div>
+                        </div>
+                        </div>
+                </div>                
+                    
+                <div class="slider-controls">
+                        <label for="btn-1"></label>
+                        <label for="btn-2"></label>
+                        <label for="btn-3"></label>
+                    </div>
             </div>
 
             <div class="product-categories clearfix">
@@ -116,7 +156,7 @@
                         <a href="#" class="product-category-link"><img src="img/popular-2.png" alt=""></a>
                     </div>
                     <div class="product-category-name">
-                        <span class="description">Моноподы для селфи</span>
+                        <span class="description">Моноподы<br> для селфи</span>
                     </div>
                 </div>
                 <div class="product-category">
@@ -132,7 +172,7 @@
                         <a href="#" class="product-category-link"><img src="img/popular-4.png" alt=""></a>
                     </div>
                     <div class="product-category-name">
-                        <span class="description">Фитнесс браслеты</span>
+                        <span class="description">Фитнесс<br> браслеты</span>
                     </div>
                 </div>
                 <div class="product-category">
@@ -160,18 +200,18 @@
 
                 <div class="services-content-wrapper clearfix">
                     <div class="services-menu">
-                        <input id="tab1" type="radio" name="tabs" checked>
-                        <input id="tab2" type="radio" name="tabs">
-                        <input id="tab3" type="radio" name="tabs">
+                        <input type="radio" id="tab-1" name="tabs" checked>
+                        <input type="radio" id="tab-2" name="tabs">
+                        <input type="radio" id="tab-3" name="tabs">
+                         
+                        
+                    
 
-                        <label for="tab1" class="active menu-item" title="Доставка">Доставка</label>
-                        <label for="tab2" class="menu-item" title="Гарантия">Гарантия</label>
-                        <label for="tab3" class="menu-item" title="Кредит">Кредит</label>
-                    </div>
-
-                
-                    <div class="services-content">
-                        <section id="content1" class="service-tab">
+                        <label for="tab-1" id="tab-title-1" class="menu-item btn tabs-menu" title="Доставка"><span class="opacity-link">Доставка</span></label>
+                        <label for="tab-2" id="tab-title-2" class="menu-item btn tabs-menu" title="Гарантия"><span class="opacity-link">Гарантия</span></label>
+                        <label for="tab-3" id="tab-title-3" class="menu-item btn tabs-menu" title="Кредит"><span class="opacity-link">Кредит</span></label>
+                    
+                        <section id="content-1" class="service-tab">
                             <h2 class="service-tab-headline">Доставка</h2>
                             <p class="service-tab-description">
                                 Мы с удовольствием доставим ваш товар прямо к вашему подъезду совершенно бесплатно! Ведь мы
@@ -180,21 +220,22 @@
                             </p>
                         </section>
 
-                        <section id="content2" class="service-tab">
+                        <section id="content-2" class="service-tab">
                             <h2 class="service-tab-headline">Гарантия</h2>
                             <p class="service-tab-description">
-                                Здесь размещаете содержание....
+                                Если из-за возгорания купленного у нас товара у вас сгорит дом - не переживайте, мы выдадим вам новый. Товар, не дом, конечно же.
                             </p>
                         </section>
 
-                        <section id="content3" class="service-tab">
+                        <section id="content-3" class="service-tab">
                             <h2 class="service-tab-headline">Кредит</h2>
                             <p class="service-tab-description">
-                                Здесь размещаете содержание....
+                                Залезть в долговую яму стало проще! Кредитные консультанты подберут для вас наиболее выгодые условия кредита. Выгодные для нашего банка, разумеется.
                             </p>
                         </section>
 
-                    </div>
+                    
+                </div>
                 </div>
                 </div>
             </div>
@@ -221,7 +262,7 @@
                         <li class="company-list-name">Автотрейдинг</li>
                         <li class="company-list-name">ЖелДорЭкспедиция</li>
                     </ul>
-                    <a href="#" class="btn">Подробнее о нас</a>
+                    <span class="btn"><a href="#" class="opacity-link">Подробнее о нас</a></span>
                 </div>
 
                 <div class="contacts">
@@ -232,7 +273,7 @@
                     <div class="company-map">
                         <img src="img/map.jpg" alt="Карта">
                     </div>
-                    <a href="#" class="btn">Напишите нам</a>
+                    <span class="btn"><a href="#" class="opacity-link">Напишите нам</a></span>
                 </div>
                 </div>
             </div>
@@ -245,9 +286,9 @@
                 <div class="cabinet-menu-footer clearfix">
                         <a href="#" class="logo logo-1">DEVICE</a>
                         <ul class="menu-list-footer">
-                            <li class="cabinet-menu-item-footer"><a class="cabinet-menu-link" href="#">Войти</a></li>
-                            <li class="cabinet-menu-item-footer"><a class="cabinet-menu-link" href="#">Сравнить</a></li>
-                            <li class="cabinet-menu-item-footer"><a class="cabinet-menu-link" href="#">Корзина</a><br></li>
+                            <li class="cabinet-menu-item-footer icon-image"><a class="cabinet-menu-link-footer" href="#">Войти</a></li>
+                            <li class="cabinet-menu-item-footer icon-image"><a class="cabinet-menu-link-footer" href="#">Сравнить</a></li>
+                            <li class="cabinet-menu-item-footer icon-image"><a class="cabinet-menu-link-footer" href="#">Корзина</a><br></li>
                         </ul>
                 </div>
 
@@ -256,24 +297,24 @@
 
                     <div class="company-services">
                         <ul class="services-list-footer">
-                            <li class="cabinet-menu-item-footer">Доставка</li>
-                            <li class="cabinet-menu-item-footer">Гарантия</li>
-                            <li class="cabinet-menu-item-footer">Контакты</li>
+                            <li class="cabinet-menu-item-footer margin-cmif"><a class="cabinet-menu-item-footer" href="#">Доставка</a></li>
+                            <li class="cabinet-menu-item-footer margin-cmif"><a class="cabinet-menu-item-footer" href="#">Гарантия</a></li>
+                            <li class="cabinet-menu-item-footer"><a class="cabinet-menu-item-footer" href="#">Контакты</a></li>
                         </ul>
                     </div>
 
                     <div class="company-phone-number">Тел.: +7 (495) 495 95 95</div>
                 </div>
                 <div class="advertising-link clearfix">
-                    <div class="footer-dash">dash</div>
+                    <div class="dash dash-footer"></div>
                     <div class="footer-social">
-                          <a class="social-btn social-btn-fb" href="#">Фейсбук</a>
-                          <a class="social-btn social-btn-inst" href="#">Инстаграм</a>
-                          <a class="social-btn social-btn-twt" href="#">Твиттер</a>
+                          <a class="social-btn social-btn-fb" href="#"></a>
+                          <a class="social-btn social-btn-inst" href="#"></a>
+                          <a class="social-btn social-btn-twt" href="#"></a>
                     </div>
 
                     <div class="footer-copyright">
-                          <a class="designed-by" href="https://htmlacademy.ru">HTML Academy</a>
+                          <a class="social-btn designed-by" href="https://htmlacademy.ru">HTML Academy</a>
                     </div>
                 </div>
             </div>
