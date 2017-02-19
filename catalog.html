@@ -14,18 +14,18 @@
                     <ul class="cabinet-menu-list-header">
                         <li class="cabinet-menu-item-header"><input type="search" placeholder="Поиск по сайту" class="site-search-form">
                         <button type="submit" name="site-search" class="site-search" value="Поиск"><div class="button-search"><span class="opacity-text">Найти</span></div></button></li>
-                        <li class="cabinet-menu-item-header"><a class="cabinet-menu-link-header" href="#">Войти</a></li>
-                        <li class="cabinet-menu-item-header"><a class="cabinet-menu-link-header" href="#">Сравнить</a></li>
-                        <li class="cabinet-menu-item-header"><a class="cabinet-menu-link-header" href="#">Корзина</a><br></li>
+                        <li class="cabinet-menu-item-header"><a class="cabinet-menu-link-header-up" href="#">Войти</a></li>
+                        <li class="cabinet-menu-item-header"><a class="cabinet-menu-link-header-up" href="#">Сравнить</a></li>
+                        <li class="cabinet-menu-item-header"><a class="cabinet-menu-link-header-up" href="#">Корзина</a><br></li>
                     </ul>
                 </div>
 
                 <div class="main-menu-header">
                      <ul class="catalogue-menu-list-header">
-                        <li class="catalogue-menu-item-header menu-catalog"><a class="cabinet-menu-link-header" href="#">Каталог товаров</a></li>
-                        <li class="catalogue-menu-item-header menu-catalog"><a class="cabinet-menu-link-header" href="#">Доставка</a></li>
-                        <li class="catalogue-menu-item-header menu-catalog"><a class="cabinet-menu-link-header" href="#">Гарантия</a></li>
-                        <li class="catalogue-menu-item-header menu-catalog"><a class="cabinet-menu-link-header" href="#">Контакты</a><br></li>
+                        <li class="catalogue-menu-item-header menu-catalog"><a class="cabinet-menu-link-header-down" href="#">Каталог товаров</a></li>
+                        <li class="catalogue-menu-item-header menu-catalog"><a class="cabinet-menu-link-header-down" href="#">Доставка</a></li>
+                        <li class="catalogue-menu-item-header menu-catalog"><a class="cabinet-menu-link-header-down" href="#">Гарантия</a></li>
+                        <li class="catalogue-menu-item-header menu-catalog"><a class="cabinet-menu-link-header-down" href="#">Контакты</a><br></li>
                     </ul>
                 </div>
         </header>
@@ -34,11 +34,12 @@
         <div class="wrapper">
     		<h1 class="main-h1">Моноподы для селфи</h1>
 
-    		<div class="breadcrumbs">
-    			<a href="#">Главная</a>
-    			<a href="#">Каталог товаров</a>
-    			<a href="#">Моноподы для селфи</a>
-    		</div>
+    		<ul class="breadcrumbs">
+    			<li><a href="#">Главная</a>
+    			<li><a href="#">Каталог товаров</a>
+    			<li><span class="last-disable-link">Моноподы для селфи</span>
+
+    		</ul>
 
     	</div>
             <div class="main-content clearfix">
@@ -48,6 +49,7 @@
         			<div class="price">
         				<span class="product-price-range">Стоимость:</span>
         				<input type="range" min="0" max="9000" step="1" value="5000">
+                        <div class="basic-price"></div><div class="final-price"></div>
         			</div>
                     <div class="color-type">
             			<span class="product-color">Цвет:</span>
@@ -63,16 +65,21 @@
         			<div class="bluetooth">
                         <span class="product-bluetooth">Bluetooth</span>
                         <ul class="list">
-        				    <li><label><input class="bluetooth-select" type="radio" name="availability" checked></label>Есть</li>
-        				    <li><label><input class="bluetooth-select" type="radio" name="availability"></label>Нет</li>
+        				    <li><input class="bluetooth-select" type="radio" name="availability" id="radio-true" checked><label for="radio-true">Есть</label></li>
+        				    <li><input class="bluetooth-select" type="radio" name="availability" id="radio-false"><label for="radio-false">Нет</label></li>
                         </ul>
         			</div>
         			<span class="details-link"><a href="#" class="opacity-link">Показать</a></span>
         		</div>
 
         		<div class="catalog">
-        			<div class="sorting">
-        				<span class="sorting-name">Сортировка:</span><span class="sorting-price">По цене</span><span class="sorting-type">По типу</span><span class="sorting-popularity">По популярности</span>
+        			<div class="sorting clearfix">
+        				<div class="sorting-name">Сортировка:</div>
+                        <div class="sorting-price-box"><a href="#" class="sorting-price">По цене</a></div>
+                        <div class="sorting-type-box"><a href="#" class="sorting-type">По типу</a></div>
+                        <div class="sorting-popularity-box"><a href="#" class="sorting-popularity">По популярности</a></div>
+                        <div class="icon-up"><a href="#"><img src="img/sort-up.png"></a></div>
+                        <div class="icon-down"><a href="#"><img src="img/sort-down.png"></a></div>
         			</div>
         			<div class="products">
         				<div class="product clearfix">

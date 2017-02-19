@@ -112,12 +112,12 @@ h2 {
 	color: #666666;
 }
 
-.cabinet-menu-link-header:hover,
+.cabinet-menu-link-header-down:hover,
 .cabinet-menu-link-footer:hover {
 	opacity: 0.6;
 }
 
-.cabinet-menu-link-header:active,
+.cabinet-menu-link-header-down:active,
 .cabinet-menu-link-footer:active {
 	opacity: 0.3;
 }
@@ -200,7 +200,6 @@ h2 {
 	width: 20px;
 	height: 20px;
 	font-size: 30px;
-	opacity: 0.5;
 	font-family: OpenSans, sans-serif;
 	font-weight: normal;
 }
@@ -264,11 +263,17 @@ h2 {
 	left: -20px;
 }
 
-.cabinet-menu-item-header:nth-child(4)::before:hover {
-	opacity: 0.5;
+.cabinet-menu-item-header:hover {
+	opacity: 0.6;
 }
 
-.cabinet-menu-link-header {
+
+.cabinet-menu-item-header:active {
+	opacity: 0.3;
+}
+
+.cabinet-menu-link-header-up,
+.cabinet-menu-link-header-down {
 	text-decoration: none;
 	color: #000;
 	
@@ -1012,6 +1017,39 @@ padding-left: 20px;
 	margin-left: 60px;
 }
 
+.breadcrumbs li{
+	display: inline;
+}
+
+.breadcrumbs {
+	margin-left: 60px;
+	margin-bottom: 0px;
+	padding: 0;
+	position: relative;
+}
+
+.breadcrumbs a {
+	text-decoration: none;
+	color: #000;
+	position: relative;
+    
+    margin-bottom: 20px;
+    margin-right: 25px;
+    padding-bottom: 25px;
+	font-size: 14px;
+	line-height: 36px;
+	font-weight: normal;
+	color: #000000;
+	font-family: Open-Sans, sans-serif;
+	opacity: 0.3;
+}
+
+
+
+.last-disable-link {
+	opacity: 0.3;
+}
+
 .filters {
 	float: left;
 	width: 270px;
@@ -1020,6 +1058,8 @@ padding-left: 20px;
 }
 
 .filter-name {
+	width: 160px;
+	margin: 0;
 	font-size: 16px;
 	line-height: auto;
 	font-weight: bold;
@@ -1072,25 +1112,47 @@ padding-left: 20px;
 
 .sorting {
 	padding-left: 72px;
+	width: 100%;
 	height: 70px;
-	display: flex;
 	background-color: #ebebeb;
-
+	float: left;
 }
 
 .filter-name {
-
+	width: 160px;
+	margin-right: 40px;
 	padding: 25px 0;
 	background-color: #dddddd;
 	
 }
 
 .sorting-name,
-.sorting-price,
-.sorting-type,
-.sorting-popularity {
-	flex: 1;
+.sorting-price-box,
+.sorting-type-box,
+.sorting-popularity-box {
+	float: left;
 	padding: 25px 0;
+}
+
+.icon-up,
+.icon-down {
+	float: left;
+	padding: 25px 0;
+	margin-left: 25px;
+}
+
+.sorting-name {
+	width: 160px;
+	margin-right: 40px;
+}
+
+.sorting-price-box,
+.sorting-type-box {
+	margin-right: 25px;
+}
+
+.sorting-popularity-box {
+	margin-right: 200px;
 }
 
 .navigation-product {
@@ -1253,7 +1315,7 @@ padding-left: 20px;
 	background-position: 0px -99px;
 	}
 
-.list input[type="checkbox"]:hover+ label::before {
+.list input[type="checkbox"]:hover + label::before {
 	background-position: 0px -132px;
 	}
 
@@ -1263,4 +1325,110 @@ padding-left: 20px;
 
 .color-list {
   margin-top: 15px;
+}
+
+.bluetooth-select {
+	display: none;
+}
+
+.list li {
+	margin-bottom: 15px;
+}
+
+
+.bluetooth-select + label::before {
+	content: "";
+    display: inline-block;
+  	vertical-align: top;
+    right: 5px;
+    height: 23px;
+    width: 24px;
+    margin: -2px 20px 0px 0;
+    background-image: url("../img/sprite/radio.png");
+    background-repeat: no-repeat;
+}
+
+.bluetooth-select + label::before {
+	background-position: 0px 0px;
+	opacity: 0.5;
+	}
+
+.bluetooth-select:hover + label::before {
+	opacity: 1;
+	}
+
+.bluetooth-select:checked + label::before {
+	background-position: 0px -33px;
+	}
+
+.sorting-name {
+	font-size: 16px;
+	line-height: auto;
+	font-weight: bold;
+	color: #000000;
+	font-family: GilroyBold, sans-serif;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+}
+
+.sorting-price,
+.sorting-type,
+.sorting-popularity {
+	font-size: 14px;
+	line-height: 18px;
+	font-weight: normal;
+	color: #000000;
+	font-family: OpenSans, sans-serif;
+	letter-spacing: 0px;
+	text-decoration: none;
+}
+
+.sorting-type,
+.sorting-popularity {
+	opacity: 0.3;
+}
+
+.sorting-price:hover,
+.sorting-type:hover,
+.sorting-popularity:hover {
+	opacity: 0.6
+}
+
+.sorting-price:active,
+.sorting-type:active,
+.sorting-popularity:active{
+	opacity: 1;
+}
+
+.icon-up:hover,
+.icon-down:hover {
+	opacity: 0.6;
+}
+
+.icon-up {
+	opacity: 1;
+}
+
+.icon-down {
+	opacity: 0.3;
+}
+
+.icon-up:active,
+.icon-down:active {
+	opacity: 1;
+}
+
+.basic-price,
+.final-price {
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+	border: 3px solid black;
+	border-radius: 50%;
+}
+
+.final-price {
+	border: 3px solid white;
+	background-color: #63b000;
+	box-shadow: 0 5px 5px rgba(0,0,0,0.75);
 }
