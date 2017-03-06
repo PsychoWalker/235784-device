@@ -11,7 +11,7 @@ body {
 	line-height: auto;
 	font-weight: normal;
 	color: #000000;
-	font-family: OpenSans, sans-serif;
+	font-family: "Open Sans", sans-serif, "Arial";
 }
 
 h1 {
@@ -81,7 +81,7 @@ h2 {
 	line-height: auto;
 	color: #000000;
 	font-weight: bold;
-	font-family: Gilroy, sans-serif, "Arial", sans-serif;
+	font-family: Gilroy, sans-serif, "Arial";
 	position: absolute;
 	margin-top: -30px;
 }
@@ -133,7 +133,7 @@ h2 {
 	line-height: 36px;
 	font-weight: normal;
 	color: #000000;
-	font-family: OpenSans, sans-serif, "Tahoma", sans-serif;
+	font-family: OpenSans, sans-serif, "Tahoma";
 }
 
 .main-menu-header {
@@ -141,7 +141,7 @@ h2 {
 	line-height: auto;
 	font-weight: bold;
 	color: #000000;
-	font-family: Gilroy, sans-serif, "Arial", sans-serif;
+	font-family: Gilroy, sans-serif, "Arial";
 }
 
 .cabinet-menu-list-header {
@@ -152,7 +152,6 @@ h2 {
 .catalogue-menu-item-header {
 	text-decoration: none;
 	display: inline-block;
-
 }
 
 .catalogue-menu-list-header {
@@ -199,7 +198,7 @@ h2 {
 	width: 20px;
 	height: 20px;
 	font-size: 30px;
-	font-family: OpenSans, sans-serif, "Tahoma", sans-serif;
+	font-family: OpenSans, sans-serif, "Tahoma";
 	font-weight: normal;
 }
 
@@ -439,15 +438,7 @@ h2 {
 
 
 
-.slider-number {
-	font-size: 179px;
-	font-weight: bold;
-	color: #fff;
-	float: right;
-	margin-top: -104px;
-	margin-right: -10px;
-	font-family: Gilroy, sans-serif, "Arial", sans-serif;
-}
+
 
 .slider-number {
 	position: absolute;
@@ -467,11 +458,6 @@ h2 {
 	position: relative;
 }
 
-.slide-headline {
-	margin-top: 0;
-	z-index: 2;
-}
-
 
 .slide-headline {
 	position: absolute;
@@ -480,7 +466,6 @@ h2 {
 }
 
 .controls {
-	
 	margin: 50px 0;
 }
 
@@ -525,24 +510,19 @@ h2 {
 	width: 26%;
 }
 
-
-
 .value {
 	font-size: 36px;
 	color: #000;
-	font-family: Gilroy, sans-serif, "Arial", sans-serif;
+	font-family: "Gilroy", sans-serif, "Arial";
 }
 
 .name {
 	font-size: 13px;
 	font-weight: normal;
 	color: #444444;
-	font-family: OpenSans, sans-serif, "Tahoma", sans-serif;
+	font-family: "OpenSans", sans-serif, "Tahoma";
 	padding-top: 15px;
 }
-
-
-
 
 /** -- CATEGORIES -- */
 .product-categories {
@@ -814,7 +794,7 @@ padding-left: 20px;
 	font-size: 15px;
 	line-height: 36px;
 	font-weight: normal;
-	font-family: OpenSans, sans-serif, "Tahoma", sans-serif;
+	font-family: OpenSans, sans-serif, "Tahoma";
 }
 
 .cabinet-menu-item-footer  {
@@ -823,9 +803,8 @@ padding-left: 20px;
 	color: #fff;
 	font-size: 18px;
 	letter-spacing: 3px;
-	line-height: auto;
 	font-weight: bold;
-	font-family: GilroyBold, sans-serif, "Arial", sans-serif;
+	font-family: GilroyBold, sans-serif, "Arial";
 	position: relative;
 
 }
@@ -1068,6 +1047,14 @@ padding-left: 20px;
 	
 }
 
+.filter-name {
+	width: 160px;
+	margin-right: 40px;
+	padding: 25px 0;
+	background-color: #dddddd;
+	
+}
+
 .price {
 	width: 200px;
 	height: 140px;
@@ -1117,13 +1104,7 @@ padding-left: 20px;
 	float: left;
 }
 
-.filter-name {
-	width: 160px;
-	margin-right: 40px;
-	padding: 25px 0;
-	background-color: #dddddd;
-	
-}
+
 
 .sorting-name,
 .sorting-price-box,
@@ -1230,7 +1211,7 @@ padding-left: 20px;
 	line-height: 36px;
 	color: #000000;
 	font-weight: normal;
-	font-family: Open-Sans, sans-serif, "Tahoma", sans-serif;
+	font-family: Open-Sans, sans-serif, "Tahoma";
 	opacity: 0.3;
 }
 
@@ -1271,7 +1252,7 @@ padding-left: 20px;
 	line-height: auto;
 	font-weight: bold;
 	color: #000000;
-	font-family: GilroyBold, sans-serif, "Arial", sans-serif;
+	font-family: GilroyBold, sans-serif, "Arial";
 	letter-spacing: 0px;
 	display: block;
 }
@@ -1365,7 +1346,7 @@ padding-left: 20px;
 	line-height: auto;
 	font-weight: bold;
 	color: #000000;
-	font-family: GilroyBold, sans-serif, "Arial", sans-serif;
+	font-family: GilroyBold, sans-serif, "Arial";
 	letter-spacing: 3px;
 	text-transform: uppercase;
 }
@@ -1377,7 +1358,7 @@ padding-left: 20px;
 	line-height: 18px;
 	font-weight: normal;
 	color: #000000;
-	font-family: OpenSans, sans-serif, "Tahoma", sans-serif;
+	font-family: OpenSans, sans-serif, "Tahoma";
 	letter-spacing: 0px;
 	text-decoration: none;
 }
@@ -1445,5 +1426,14 @@ padding-left: 20px;
 
 .dash-company:nth-child(2) {
 	left: 580px;
+}
 
+.description {
+	font-size: 18px;
+	line-height: auto;
+	letter-spacing: 3px;
+	color: #000;
+	font-family: GilroyBold, sans-serif, "Arial", sans-serif;
+	text-decoration: none;
+	font-weight: bold;
 }
